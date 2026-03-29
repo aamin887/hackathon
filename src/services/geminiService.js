@@ -2,8 +2,10 @@ import { GoogleGenAI } from "@google/genai";
 
 // import.meta.VITE_GEMINI_API_KEY,
 
+console.log(import.meta.env.VITE_GEMINI_API_KEY);
+
 const ai = new GoogleGenAI({
-  apiKey: import.meta.VITE_GEMINI_API_KEY,
+  apiKey: import.meta.env.VITE_GEMINI_API_KEY,
 });
 
 /**
