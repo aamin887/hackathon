@@ -41,7 +41,7 @@ export default function App() {
         <div className="flex items-center gap-2">
           <Leaf className="w-6 h-6 text-primary" />
           <h1 className="text-xl font-bold text-primary font-headline tracking-tight">
-            Name of the App
+            AfterCare
           </h1>
         </div>
 
