@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-headline: "Lexend", sans-serif;
+  --font-body: "Lexend", sans-serif;
+  --font-label: "Inter", sans-serif;
+
+  --color-primary: #486559;
+  --color-primary-container: #caeadb;
+  --color-on-primary-container: #3b584c;
+  --color-surface: #f8faf8;
+  --color-surface-container: #eaefec;
+  --color-surface-container-low: #f1f4f2;
+  --color-on-surface: #2d3432;
+  --color-on-surface-variant: #59615f;
+  --color-error-container: #fa746f;
+  --color-on-error-container: #6e0a12;
+  --color-tertiary-fixed: #fde7d3;
+  --color-on-tertiary-fixed: #504234;
+  --color-secondary-container: #cce6f8;
+  --color-on-secondary-container: #3d5564;
+  --color-secondary: #4a6272;
+  --color-on-secondary: #f4f9ff;
+}
+
+@layer base {
+  body {
+    @apply bg-surface text-on-surface font-body;
+  }
+}
